@@ -1,12 +1,12 @@
 module Memorable
   module ClassMethods
 
-    def class.reset_all
-      class.all.clear
+    def reset_all
+      all.clear
     end
 
-    def class.count
-      class.all.count
+    def count
+      all.count
   end
 
 end
